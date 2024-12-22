@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: #001f3f;
+    display: flex;
+}
+
+.logo {
+    border-radius: 50%;
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+.name {
+    padding-top: 35px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 28px;
+    margin-left: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+input {
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 32px;
+    margin-left: 270px;
+}
+
+p {
+    font-size: 20;
+}
+
+.ahmedinfo {
+    padding: 50px;
+    text-align: center;
+}
+
+.ahmedtable {
+    background-color: white;
+    padding: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    ;
+}
+
+th {
+    background-color: #001f3f;
+    color: white;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 50px;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+
+}
+
+.contact {
+    margin: 20px;
+
+}
+
+.findus {
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.followus {
+    margin: 20px;
+    margin-left: 120px;
+}
+
+.rights {
+    p {
+        text-align: center;
+    }
+
+    margin-top: 50px;
+}
